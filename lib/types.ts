@@ -84,21 +84,69 @@ export interface JobOrderItem {
   featured: boolean;
 }
 
+export interface EducationEntry {
+  year: string;
+  month: string;
+  name: string;
+  status: '入学' | '卒業' | '中退' | '在学中' | 'Masuk' | 'Lulus';
+}
+
+export interface WorkEntry {
+  year: string;
+  month: string;
+  name: string;
+  status: '入社' | '退社' | 'Masuk' | 'Keluar' | '現在に至る';
+}
+
+export interface LicenseEntry {
+  year: string;
+  month: string;
+  name: string;
+}
+
 export interface ApplicantItem {
   id: string;
   fullName: string;
+  katakanaName?: string;
   gender: 'Laki-laki' | 'Perempuan';
   birthDate: string;
+  birthPlace?: string;
   age: number;
   phoneWhatsapp: string;
   email?: string;
   originDistrict: string;
   originRegency: string;
+  fullAddress?: string;
+  addressFurigana?: string;
+  postalCode?: string;
+  emergencyContact?: {
+    name?: string;
+    relationship?: string;
+    phone?: string;
+    address?: string;
+    postalCode?: string;
+  };
   lastEducation: string;
   heightCm: number;
   weightKg: number;
+  bloodType?: 'A' | 'B' | 'AB' | 'O' | '-';
+  dominantHand?: 'Kanan' | 'Kiri' | '右' | '左';
+  vision?: {
+    left?: string;
+    right?: string;
+  };
+  maritalStatus?: 'Belum Menikah' | 'Menikah' | 'Cerai' | '未婚' | '既婚';
+  religion?: string;
   interestedProgram: string;
+  interestedSector?: string;
+  preferredPrefecture?: string;
   japaneseLevel: 'Belum Pernah' | 'Dasar / Hiragana Katakana' | 'N5' | 'N4' | 'N3+';
+  photoUrl?: string;
+  educationHistory?: EducationEntry[];
+  workHistory?: WorkEntry[];
+  certifications?: LicenseEntry[];
+  personalPreferences?: string;
+  motivation?: string;
   notes?: string;
   status: 'baru' | 'terjadwal_seleksi' | 'sedang_pelatihan' | 'lolos_wawancara' | 'selesai' | 'ditolak';
   createdAt: string;

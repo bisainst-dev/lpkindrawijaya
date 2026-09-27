@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getDatabase, addApplicant, updateApplicantStatus, deleteApplicant } from '@/lib/store';
+import { getDatabase, addApplicant, saveApplicant, updateApplicantStatus, deleteApplicant } from '@/lib/store';
 
 export async function GET() {
   const db = getDatabase();
@@ -9,6 +9,15 @@ export async function GET() {
 export async function POST(request: Request) {
   try {
     const body = await request.json();
+
+    // If sent from Admin CMS with full student record
+    if (body.isFullRecord) {
+      if (!body.fullName) {
+        return NextResponse.json({ error: 'Nama lengkap wajib diisi' }, { status: 400 });
+      }
+      const saved = saveApplicant(body);
+      return NextResponse.json({ success: true, applicant: saved }, { status: 201 });
+    }
     const { 
       fullName, 
       gender, 
@@ -100,3 +109,17 @@ export async function DELETE(request: Request) {
     return NextResponse.json({ error: 'Gagal menghapus data' }, { status: 500 });
   }
 }
+
+export async function PUT(request: Request) {
+  try {
+    const body = await request.json();
+    if (!body.fullName) {
+      return NextResponse.json({ error: 'Nama siswa wajib diisi' }, { status: 400 });
+    }
+    const saved = saveApplicant(body);
+    return NextResponse.json({ success: true, applicant: saved });
+  } catch (error) {
+    return NextResponse.json({ error: 'Gagal memperbarui data siswa' }, { status: 500 });
+  }
+}
+

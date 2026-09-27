@@ -54,6 +54,25 @@ export function addApplicant(input: Omit<ApplicantItem, 'id' | 'createdAt'>): Ap
   return newApplicant;
 }
 
+export function saveApplicant(applicant: ApplicantItem): ApplicantItem {
+  const db = getDatabase();
+  const existingIdx = db.applicants.findIndex(a => a.id === applicant.id);
+  if (existingIdx >= 0) {
+    db.applicants[existingIdx] = { ...db.applicants[existingIdx], ...applicant };
+    saveDatabase(db);
+    return db.applicants[existingIdx];
+  } else {
+    const newApplicant: ApplicantItem = {
+      ...applicant,
+      id: applicant.id || `app-${Date.now()}`,
+      createdAt: applicant.createdAt || new Date().toISOString()
+    };
+    db.applicants.unshift(newApplicant);
+    saveDatabase(db);
+    return newApplicant;
+  }
+}
+
 export function updateApplicantStatus(id: string, status: ApplicantItem['status'], notes?: string): boolean {
   const db = getDatabase();
   const applicant = db.applicants.find(a => a.id === id);
