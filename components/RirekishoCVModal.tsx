@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { ApplicantItem, EducationEntry, WorkEntry, LicenseEntry } from '@/lib/types';
 import { 
   Printer, 
@@ -11,17 +11,80 @@ import {
   Sparkles, 
   FileText,
   ZoomIn,
-  ZoomOut
+  ZoomOut,
+  Upload,
+  Camera,
+  Loader2
 } from 'lucide-react';
 
 interface RirekishoCVModalProps {
   applicant: ApplicantItem;
   isOpen: boolean;
   onClose: () => void;
+  onApplicantUpdate?: (updated: ApplicantItem) => void;
 }
 
-export default function RirekishoCVModal({ applicant, isOpen, onClose }: RirekishoCVModalProps) {
+export default function RirekishoCVModal({ applicant, isOpen, onClose, onApplicantUpdate }: RirekishoCVModalProps) {
   if (!isOpen || !applicant) return null;
+
+  // Photo state & upload
+  const [photoUrl, setPhotoUrl] = useState(applicant.photoUrl || '');
+  const [isUploadingPhoto, setIsUploadingPhoto] = useState(false);
+  const photoInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    setPhotoUrl(applicant.photoUrl || '');
+  }, [applicant.photoUrl]);
+
+  const handlePhotoFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    if (file.size > 10 * 1024 * 1024) {
+      alert("Ukuran foto maksimal 10MB.");
+      return;
+    }
+
+    try {
+      setIsUploadingPhoto(true);
+      const data = new FormData();
+      data.append('file', file);
+
+      const res = await fetch('/api/admin/upload-photo', {
+        method: 'POST',
+        body: data
+      });
+
+      const json = await res.json();
+      if (json.success && json.url) {
+        const newUrl = json.url;
+        setPhotoUrl(newUrl);
+
+        const updatedApplicant: ApplicantItem = {
+          ...applicant,
+          photoUrl: newUrl
+        };
+
+        await fetch('/api/pendaftar', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(updatedApplicant)
+        });
+
+        if (onApplicantUpdate) {
+          onApplicantUpdate(updatedApplicant);
+        }
+      } else {
+        alert(json.error || "Gagal mengunggah foto.");
+      }
+    } catch (err) {
+      console.error("Error uploading photo:", err);
+      alert("Terjadi kesalahan saat mengunggah foto.");
+    } finally {
+      setIsUploadingPhoto(false);
+      if (photoInputRef.current) photoInputRef.current.value = '';
+    }
+  };
 
   // Current Date in Japanese format
   const today = new Date();
@@ -386,24 +449,63 @@ export default function RirekishoCVModal({ applicant, isOpen, onClose }: Rirekis
 
             {/* Right Photo Box (Exact standard dimensions ~36-40mm x 24-30mm) */}
             <div className="w-[115px] border-l-2 border-black flex flex-col items-center justify-center p-1 bg-white relative">
-              {applicant.photoUrl ? (
-                <div className="w-full h-full min-h-[148px] max-h-[155px] overflow-hidden flex items-center justify-center border border-slate-200">
+              <input
+                type="file"
+                ref={photoInputRef}
+                onChange={handlePhotoFileChange}
+                accept="image/*"
+                className="hidden"
+              />
+
+              {photoUrl ? (
+                <div className="w-full h-full min-h-[148px] max-h-[155px] overflow-hidden flex items-center justify-center border border-slate-300 relative group/photo">
                   <img
-                    src={applicant.photoUrl}
-                    alt={applicant.fullName}
+                    src={photoUrl}
+                    alt={fullName || applicant.fullName}
                     className="w-full h-full object-cover"
                   />
+                  {/* Overlay button in screen mode (hidden in print) */}
+                  <button
+                    type="button"
+                    onClick={() => photoInputRef.current?.click()}
+                    disabled={isUploadingPhoto}
+                    className="absolute inset-0 bg-slate-900/75 opacity-0 group-hover/photo:opacity-100 transition-opacity flex flex-col items-center justify-center gap-1.5 text-white text-[10px] font-medium print:hidden cursor-pointer p-1 text-center"
+                    title="Klik untuk mengganti pas foto"
+                  >
+                    {isUploadingPhoto ? (
+                      <Loader2 className="w-5 h-5 animate-spin text-orange-400" />
+                    ) : (
+                      <Camera className="w-5 h-5 text-orange-400" />
+                    )}
+                    <span className="font-bold text-[9px] leading-tight">
+                      {isUploadingPhoto ? 'Mengunggah...' : 'Ganti Foto'}
+                    </span>
+                  </button>
                 </div>
               ) : (
-                <div className="w-full h-full min-h-[148px] border border-dashed border-slate-400 p-1 flex flex-col items-center justify-center text-center text-[9px] leading-[13px] text-slate-500 font-sans">
-                  <div className="font-bold text-slate-700 mb-1">写真を貼る位置</div>
+                <div 
+                  onClick={() => photoInputRef.current?.click()}
+                  className="w-full h-full min-h-[148px] border border-dashed border-slate-400 hover:border-orange-500 hover:bg-orange-50/40 p-1 flex flex-col items-center justify-center text-center text-[9px] leading-[13px] text-slate-500 font-sans cursor-pointer transition-colors group/box relative"
+                  title="Klik untuk mengunggah pas foto siswa"
+                >
+                  <div className="font-bold text-slate-700 mb-0.5">写真を貼る位置</div>
                   <div>写真を貼る必要があ</div>
                   <div>る場合</div>
-                  <div className="text-[8px] text-slate-400 mt-1">1. 縦 36～40mm</div>
+                  <div className="text-[8px] text-slate-400 mt-0.5">1. 縦 36～40mm</div>
                   <div className="text-[8px] text-slate-400">横 24～30mm</div>
                   <div className="text-[8px] text-slate-400">2. 本人単身胸から上</div>
                   <div className="text-[8px] text-slate-400">3. 裏面のりづけ</div>
                   <div className="text-[8px] text-slate-400">4. 裏面に氏名記入</div>
+
+                  {/* Interactive Button for Screen (Hidden when printed) */}
+                  <div className="mt-1.5 print:hidden flex items-center gap-1 text-[9px] font-bold text-orange-700 bg-orange-100 hover:bg-orange-200 px-2 py-0.5 rounded shadow-2xs border border-orange-300 transition">
+                    {isUploadingPhoto ? (
+                      <Loader2 className="w-3 h-3 animate-spin" />
+                    ) : (
+                      <Upload className="w-3 h-3" />
+                    )}
+                    <span>{isUploadingPhoto ? 'Upload...' : '+ Upload Foto'}</span>
+                  </div>
                 </div>
               )}
             </div>

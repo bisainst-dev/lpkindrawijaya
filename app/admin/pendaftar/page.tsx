@@ -1344,6 +1344,10 @@ export default function PendaftarManagementPage() {
             setIsCvModalOpen(false);
             setCvModalApplicant(null);
           }}
+          onApplicantUpdate={(updated) => {
+            setCvModalApplicant(updated);
+            setApplicants(prev => prev.map(a => a.id === updated.id ? updated : a));
+          }}
         />
       )}
 

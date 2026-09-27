@@ -600,6 +600,7 @@ export const initialData: AppDatabase = {
       weightKg: 64,
       interestedProgram: "prog-ssw-nogyo",
       japaneseLevel: "Dasar / Hiragana Katakana",
+      photoUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
       notes: "Sangat berminat program SSW Pertanian di Ibaraki, fisik bugar dan atletis.",
       status: "terjadwal_seleksi",
       createdAt: "2026-09-05T10:15:00Z"
@@ -619,6 +620,7 @@ export const initialData: AppDatabase = {
       weightKg: 50,
       interestedProgram: "prog-ssw-kaigo",
       japaneseLevel: "N5",
+      photoUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
       notes: "Sudah lulus JLPT N5 dan berlatar belakang keperawatan, siap wawancara user panti Tokyo.",
       status: "lolos_wawancara",
       createdAt: "2026-09-04T14:30:00Z"
@@ -637,6 +639,7 @@ export const initialData: AppDatabase = {
       weightKg: 61,
       interestedProgram: "prog-ssw-shokuhin",
       japaneseLevel: "Belum Pernah",
+      photoUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80",
       notes: "Rumah dekat kantor LPK Indra Wijaya, ingin belajar intensif dari nol.",
       status: "baru",
       createdAt: "2026-09-08T09:00:00Z"
@@ -655,6 +658,7 @@ export const initialData: AppDatabase = {
       weightKg: 49,
       interestedProgram: "prog-ssw-kaigo",
       japaneseLevel: "Dasar / Hiragana Katakana",
+      photoUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
       notes: "Ingin mengikuti kelas asrama gelombang Oktober 2026.",
       status: "sedang_pelatihan",
       createdAt: "2026-09-02T16:45:00Z"
@@ -673,6 +677,7 @@ export const initialData: AppDatabase = {
       weightKg: 68,
       interestedProgram: "prog-magang-jisshuusei",
       japaneseLevel: "N4",
+      photoUrl: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
       notes: "Berkas CoE sedang diproses di imigrasi Nagoya Jepang.",
       status: "selesai",
       createdAt: "2026-08-20T11:20:00Z"
