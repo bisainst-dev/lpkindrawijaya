@@ -1,0 +1,939 @@
+{
+  "company": {
+    "name": "LPK INDRAWIJAYA",
+    "shortName": "LPK Indra Wijaya",
+    "legalName": "Lembaga Pelatihan Kerja & Sending Organization Indra Wijaya",
+    "logoUrl": "/uploads/logo-1789397233084.jpg",
+    "brandTag": "",
+    "brandSubtitle": "Indramayu Sending Organization to Japan",
+    "showBrandText": true,
+    "tagline": {
+      "id": "Pusat Pelatihan & Pemberangkatan Resmi Tenaga Kerja Profesional ke Jepang di Indramayu",
+      "ja": "インドネシア西ジャワ州インドラマユ発・信頼の日本送出し機関（技能実習・特定技能）",
+      "en": "Official Japanese Training & Sending Organization based in Indramayu, West Java"
+    },
+    "description": {
+      "id": "LPK Indra Wijaya adalah lembaga pelatihan kerja dan Sending Organization (SO) resmi berizin Kementerian Ketenagakerjaan RI yang berpusat di Indramayu, Jawa Barat. Kami berdedikasi melatih, membina kedisiplinan mental dan fisik (FMD), serta memberangkatkan putra-putri terbaik Indonesia menuju karier sukses dan bermartabat di Jepang melalui program Tokutei Ginou (SSW) dan Pemagangan (Ginou Jisshuusei).",
+      "ja": "インドラ・ウィジャヤ（LPK INDRA WIJAYA）は、インドネシア労働省認可の公認送出し機関（SO）です。西ジャワ州インドラマユ県に本拠を置き、礼儀正しく勤勉なインドネシア人青年に日本語教育、専門技能訓練、心身の規律指導を行い、日本全国の受入れ企業様および監理団体様へ優秀な特定技能・技能実習生を安定的に派遣しております。",
+      "en": "LPK Indra Wijaya is an officially accredited Vocational Training Center and Sending Organization licensed by the Ministry of Manpower of Indonesia, headquartered in Indramayu, West Java. We train, educate, and dispatch skilled Indonesian workforce to Japan with high discipline, cultural readiness, and certified Japanese proficiency."
+    },
+    "soLicenseNumber": "KEP.289/BINAPENTA/VII/2023",
+    "disnakerLicenseNumber": "563/120/Disnaker-IDM/2022",
+    "vinNumber": "2209321201",
+    "address": "Jl. Rajawali No.1, RT.24/RW.01, Lemahabang, Kec. Indramayu, Kabupaten Indramayu, Jawa Barat 45212",
+    "district": "Indramayu",
+    "regency": "Kabupaten Indramayu",
+    "province": "Jawa Barat",
+    "postalCode": "45252",
+    "phone": "+62 234 7120890",
+    "whatsapp": "+62 813 2468 9900",
+    "whatsappMessage": "Halo Admin LPK Indra Wijaya, saya ingin konsultasi mengenai pendaftaran dan pelatihan kerja ke Jepang.",
+    "email": "kontak@lpkindrawijaya.id",
+    "operatingHours": {
+      "id": "Senin - Sabtu: 08.00 - 17.00 WIB (Minggu Libur / Konsultasi Online)",
+      "ja": "月曜日〜土曜日：08:00〜17:00（インドネシア時間）",
+      "en": "Monday - Saturday: 08:00 - 17:00 WIB (Sunday Closed)"
+    },
+    "googleMapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126938.8687796939!2d108.2323048972656!3d-6.333333333333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6eb94943fbe0a7%3A0x401e8f1fc28c6a0!2sIndramayu%2C%20Indramayu%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1700000000000",
+    "socials": {
+      "instagram": "https://instagram.com/lpkindrawijaya_official",
+      "tiktok": "https://tiktok.com/@lpk_indrawijaya",
+      "facebook": "https://facebook.com/lpkindrawijayaofficial",
+      "youtube": "https://youtube.com/@lpkindrawijaya"
+    },
+    "stats": {
+      "traineesDeparted": 860,
+      "partnerCompanies": 58,
+      "interviewPassRate": 98,
+      "yearsExperience": 8
+    }
+  },
+  "programs": [
+    {
+      "id": "prog-ssw-kaigo",
+      "slug": "ssw-kaigo-perawat-lansia",
+      "category": "ssw",
+      "active": true,
+      "featured": true,
+      "title": {
+        "id": "Tokutei Ginou (SSW) - Caregiver / Perawat Lansia (介護)",
+        "ja": "特定技能1号・介護（Caregiver）育成コース",
+        "en": "Specified Skilled Worker (SSW) - Caregiver / Kaigo"
+      },
+      "duration": {
+        "id": "4 - 6 Bulan Intensif di Asrama Indramayu",
+        "ja": "4〜6ヶ月（寄宿舎集中研修）",
+        "en": "4 - 6 Months Intensive Boarding Program"
+      },
+      "targetLevel": "JFT-Basic A2 / JLPT N4 + Ujian Skill Kaigo",
+      "description": {
+        "id": "Program pelatihan terpadu khusus calon perawat lansia di Jepang dengan kurikulum standar internasional, simulasi fasilitas panti lansia Jepang, penguasaan istilah medis/kaigo, dan bimbingan sampai lulus ujian skill & JFT.",
+        "ja": "日本の介護施設で即戦力として活躍できる人材を育成。介護専門用語、移乗・入浴等の基本介助技術、高齢者とのコミュニケーション力、JFT-Basic A2及び介護特定技能評価試験の合格を徹底サポートします。",
+        "en": "Comprehensive nursing care training program covering specialized medical/kaigo terminology, Japanese eldercare protocols, empathy, and preparation for the Nursing Care Skills Evaluation Test."
+      },
+      "highlights": {
+        "id": [
+          "Fasilitas simulasi bed panti jompo Jepang di asrama Indramayu",
+          "Gaji berkisar ¥210.000 - ¥250.000 / bulan (Rp 22 - 27 Juta)",
+          "Bimbingan gratis pengurusan CoE, visa, hingga pendampingan bandara",
+          "Dapat memperpanjang masa kerja hingga 5 tahun atau beralih ke SSW 2"
+        ],
+        "ja": [
+          "インドラマユ実習センター内に介護模擬実習室を完備",
+          "月額給与目安：210,000円〜250,000円（各種手当・残業別）",
+          "在留資格「特定技能1号」認定証取得・ビザ申請を迅速代行",
+          "日本語N4レベル＋介護日本語試験合格者を厳選配属"
+        ],
+        "en": [
+          "Equipped with modern Japanese nursing care simulation lab",
+          "Competitive salary: ¥210,000 - ¥250,000 / month",
+          "Complete visa, CoE, and departure assistance",
+          "Eligible for up to 5-year stay with career advancement"
+        ]
+      },
+      "requirements": {
+        "id": [
+          "Pria / Wanita usia 18 - 32 tahun",
+          "Pendidikan min. SMK/SMA sederajat (Diutamakan lulusan Keperawatan/Kesehatan)",
+          "Sehat jasmani & rohani, tidak bertato, tidak buta warna",
+          "Memiliki komitmen disiplin dan kemauan belajar tinggi"
+        ],
+        "ja": [
+          "18歳〜32歳の男女（健康診断合格者）",
+          "高校または看護専門学校卒業以上",
+          "刺青・色覚異常のないこと",
+          "礼儀正しく、高齢者介護に真摯に向き合える意欲"
+        ],
+        "en": [
+          "Male / Female aged 18 - 32 years old",
+          "Min. High School / Vocational School graduate",
+          "Physically & mentally fit, no tattoos, no color blindness",
+          "Strong willingness to learn and adapt to Japanese lifestyle"
+        ]
+      },
+      "icon": "HeartHandshake"
+    },
+    {
+      "id": "prog-ssw-nogyo",
+      "slug": "ssw-pertanian-modern-nogyo",
+      "category": "ssw",
+      "active": true,
+      "featured": true,
+      "title": {
+        "id": "Tokutei Ginou (SSW) - Pertanian Modern & Tanaman (農業)",
+        "ja": "特定技能1号・農業（耕種・畜産）育成コース",
+        "en": "Specified Skilled Worker (SSW) - Modern Agriculture"
+      },
+      "duration": {
+        "id": "3 - 5 Bulan Intensif",
+        "ja": "3〜5ヶ月集中研修",
+        "en": "3 - 5 Months Intensive"
+      },
+      "targetLevel": "JFT-Basic A2 / JLPT N4 + Ujian Skill Pertanian",
+      "description": {
+        "id": "Pelatihan budidaya pertanian modern berbasis teknologi Jepang (greenhouse, hidroponik, sayuran daun, buah, dan peternakan). Lulusan diminati oleh prefektur sentra pertanian seperti Ibaraki, Nagano, Hokkaido, dan Gunma.",
+        "ja": "日本の高度な温室栽培・野菜果樹栽培・畜産管理に対応できる人材を育成。インドラマユの農耕実習地での基礎体力づくりと農業用語の習得、特定技能農業評価試験対策を行います。",
+        "en": "Specialized training for modern agriculture in Japan, including greenhouse cultivation, soil management, harvesting, and agricultural machinery operation."
+      },
+      "highlights": {
+        "id": [
+          "Praktik fisik & ketahanan kerja di lahan pelatihan Indramayu",
+          "Gaji berkisar ¥190.000 - ¥220.000 / bulan",
+          "Penyediaan tempat tinggal/asrama bersubsidi oleh user Jepang",
+          "Peluang lembur panen yang melimpah"
+        ],
+        "ja": [
+          "農村部出身の体力と粘り強さを持つ候補生を選抜",
+          "月額給与目安：190,000円〜220,000円（残業代別途）",
+          "受入れ企業による寮・社宅手配サポート",
+          "茨城県、長野県、北海道等の農家様へ多数派遣実績"
+        ],
+        "en": [
+          "Practical field and endurance training in Indramayu",
+          "Estimated salary: ¥190,000 - ¥220,000 / month",
+          "Subsidized housing and farm accommodation",
+          "Strong partner network in Ibaraki, Nagano, and Hokkaido"
+        ]
+      },
+      "requirements": {
+        "id": [
+          "Pria / Wanita usia 19 - 30 tahun",
+          "Pendidikan minimal SMA/SMK sederajat",
+          "Fisik kuat, suka pekerjaan lapangan/pertanian, tahan cuaca",
+          "Bebas tato dan tindik (pria)"
+        ],
+        "ja": [
+          "19歳〜30歳の男女",
+          "体力と忍耐力があり、屋外作業に前向きな方",
+          "健康診断基準（腰痛・慢性疾患なし）クリア"
+        ],
+        "en": [
+          "Age 19 - 30 years old",
+          "High school diploma or equivalent",
+          "Good stamina, outdoor adaptability, fit medical record"
+        ]
+      },
+      "icon": "Sprout"
+    },
+    {
+      "id": "prog-ssw-shokuhin",
+      "slug": "ssw-pengolahan-makanan-shokuhin",
+      "category": "ssw",
+      "active": true,
+      "featured": true,
+      "title": {
+        "id": "Tokutei Ginou (SSW) - Industri Pengolahan Makanan (外食・飲食料品製造)",
+        "ja": "特定技能1号・飲食料品製造業コース",
+        "en": "Specified Skilled Worker (SSW) - Food & Beverage Manufacturing"
+      },
+      "duration": {
+        "id": "3 - 5 Bulan Intensif",
+        "ja": "3〜5ヶ月集中研修",
+        "en": "3 - 5 Months Intensive"
+      },
+      "targetLevel": "JFT-Basic A2 / JLPT N4 + Ujian Skill Pengolahan Makanan",
+      "description": {
+        "id": "Pelatihan standar higienitas dan sanitasi pabrik makanan Jepang (HACCP), keselamatan kerja, pembuatan bento, bakery, dan makanan olahan beku di pabrik-pabrik ternama Jepang.",
+        "ja": "HACCPや日本の衛生管理基準、異物混入防止、品質管理意識を徹底教育。総菜加工、製パン、冷凍食品等の工場で即戦力として真面目に稼働できる人材を育成します。",
+        "en": "Food safety, hygiene management (HACCP), and manufacturing discipline for Japanese food processing and bento factories."
+      },
+      "highlights": {
+        "id": [
+          "Lingkungan kerja pabrik bersih, indoor ber-AC",
+          "Gaji berkisar ¥195.000 - ¥230.000 / bulan",
+          "Banyak penempatan di Chiba, Saitama, Aichi, Kanagawa",
+          "Sangat cocok untuk pria maupun wanita"
+        ],
+        "ja": [
+          "衛生管理基準・指差し確認の徹底トレーニング",
+          "月額給与目安：195,000円〜230,000円",
+          "千葉、埼玉、愛知、神奈川等の食品加工工場へ多数実績",
+          "女性候補生からも高い人気と安定した定着率"
+        ],
+        "en": [
+          "Modern, clean, indoor air-conditioned factory environments",
+          "Estimated salary: ¥195,000 - ¥230,000 / month",
+          "Placements in Tokyo metropolitan area, Chiba, Saitama, Aichi",
+          "High retention rate and supportive communities"
+        ]
+      },
+      "requirements": {
+        "id": [
+          "Pria / Wanita usia 18 - 28 tahun",
+          "Pendidikan min. SMA / SMK sederajat",
+          "Cekatan, teliti, mengutamakan kebersihan (hygiene)",
+          "Bebas penyakit kulit dan menular"
+        ],
+        "ja": [
+          "18歳〜28歳の男女",
+          "手先が器用で、清潔感とルール遵守ができる方",
+          "伝染性疾患・皮膚疾患のないこと"
+        ],
+        "en": [
+          "Age 18 - 28 years old",
+          "High school graduate or equivalent",
+          "Detail-oriented, high standard of personal hygiene",
+          "Clean medical background check"
+        ]
+      },
+      "icon": "Utensils"
+    },
+    {
+      "id": "prog-magang-jisshuusei",
+      "slug": "pemagangan-jepang-ginou-jisshuusei",
+      "category": "intern",
+      "active": true,
+      "featured": true,
+      "title": {
+        "id": "Program Pemagangan Jepang (Ginou Jisshuusei - 技能実習)",
+        "ja": "技能実習生派遣プログラム（1号・2号・3号）",
+        "en": "Technical Intern Training Program (TITP)"
+      },
+      "duration": {
+        "id": "4 - 6 Bulan Pelatihan di Indramayu (Kontrak Kerja 3 - 5 Tahun di Jepang)",
+        "ja": "事前研修4〜6ヶ月（実習期間3〜5年）",
+        "en": "4 - 6 Months Training (3 - 5 Years Contract in Japan)"
+      },
+      "targetLevel": "JLPT N5 - N4 + Latihan Fisik, Mental, dan Disiplin (FMD)",
+      "description": {
+        "id": "Program resmi transfer keterampilan ke Jepang selama 3 sampai 5 tahun di bidang konstruksi, permesinan, pengelasan, perakitan otomotif, garmen, dan perikanan, bekerjasama dengan puluhan Supervising Organization (Kumiai) terpercaya.",
+        "ja": "日本の受入れ監理団体様と提携し、建設・溶接・機械加工・自動車整備・縫製分野の技能実習生を派遣。インドラマユの合宿所での厳しいFMD訓練（体力・精神・規律）と日本語教育を実施しています。",
+        "en": "Official technical internship program for 3 to 5 years in manufacturing, construction, welding, and automotive sectors in partnership with registered Japanese Supervising Organizations."
+      },
+      "highlights": {
+        "id": [
+          "Kerjasama dengan puluhan Kumiai terakreditasi OTIT di Jepang",
+          "Uang saku & tunjangan bersih berkisar ¥170.000 - ¥210.000 / bulan",
+          "Jaminan perlindungan asuransi kesehatan & ketenagakerjaan resmi",
+          "Modal kembali ke tanah air mencapai ratusan juta rupiah"
+        ],
+        "ja": [
+          "外国人技能実習機構（OTIT）優良監理団体様との堅固な提携",
+          "月額手当：170,000円〜210,000円（家賃補助・保険完備）",
+          "現地巡回サポート及びトラブルゼロを目指す生活指導体制",
+          "帰国後は特定技能への資格変更・再就職支援も可能"
+        ],
+        "en": [
+          "Partnership with accredited OTIT Supervising Organizations",
+          "Monthly allowance: ¥170,000 - ¥210,000",
+          "Full social insurance and health protection under Japanese law",
+          "Option to transition to SSW visa after 3-year completion"
+        ]
+      },
+      "requirements": {
+        "id": [
+          "Pria usia 19 - 26 tahun (Konstruksi/Manufaktur), Wanita 19 - 25 tahun (Garmen)",
+          "Tinggi badan min. 160 cm (Pria) / 150 cm (Wanita)",
+          "Lulus tes fisik: Lari 3 km, push-up 35x, sit-up 35x, pull-up",
+          "Disiplin tinggi, siap tinggal di asrama selama pelatihan di Indramayu"
+        ],
+        "ja": [
+          "19歳〜26歳の健康な男女",
+          "身長160cm以上（男性）/ 150cm以上（女性）",
+          "基礎体力テスト・適性検査合格者",
+          "集団行動規律と時間厳守の意識が高い人材"
+        ],
+        "en": [
+          "Male aged 19 - 26 (Manufacturing/Construction), Female 19 - 25 (Garment)",
+          "Minimum height: 160cm (Male) / 150cm (Female)",
+          "Passed physical stamina and fitness tests",
+          "Disciplined team player ready for dormitory live-in training"
+        ]
+      },
+      "icon": "HardHat"
+    },
+    {
+      "id": "prog-kelas-bahasa",
+      "slug": "kursus-intensif-bahasa-jepang-dan-fmd",
+      "category": "language",
+      "active": true,
+      "featured": false,
+      "title": {
+        "id": "Kelas Intensif Bahasa Jepang & Budaya Kerja (N5 - N4 - N3)",
+        "ja": "日本語・日本ビジネスマナー集中集中講座",
+        "en": "Intensive Japanese Language & Business Etiquette Course"
+      },
+      "duration": {
+        "id": "3 Bulan per Jenjang",
+        "ja": "各レベル3ヶ月",
+        "en": "3 Months per Level"
+      },
+      "targetLevel": "JLPT N5 / N4 / N3 & Percakapan Praktis (Kaiwa)",
+      "description": {
+        "id": "Bimbingan mendalam tata bahasa, kanji, pendengaran (choukai), serta simulasi percakapan dunia kerja Jepang (Keigo & Hourenso) dibimbing sensei berpengalaman lulusan universitas ternama dan ex-kenshuusei.",
+        "ja": "文法、漢字、聴解の基礎から、日本の職場における「報連相」、挨拶、5S（整理・整頓・清掃・清潔・躾）を徹底的に叩き込みます。元実習生・N1/N2保持講師が指導。",
+        "en": "Master Japanese grammar, kanji, listening, and workplace communications (Hourenso, 5S culture, greeting etiquette) taught by certified instructors and Japan returnees."
+      },
+      "highlights": {
+        "id": [
+          "Metode belajar interaktif dengan native speaker audio & visual",
+          "Simulasi ujian berkala format resmi JLPT dan JFT-Basic",
+          "Pelatihan wawancara (Menseki) dengan user perusahaan Jepang",
+          "Fasilitas ruang multimedia dan lab bahasa ber-AC"
+        ],
+        "ja": [
+          "ネイティブ教材を用いた実践的会話（カイワ）トレーニング",
+          "JLPT・JFT-Basic模試を毎月定期開催し習熟度を可視化",
+          "Zoom/対面での模擬面接（メンセツ）練習の徹底",
+          "冷房完備のマルチメディア語学教室と自習環境"
+        ],
+        "en": [
+          "Interactive communicative approach with native audio/video",
+          "Monthly mock exams for JLPT and JFT-Basic formats",
+          "One-on-one interview (Menseki) coaching with Japanese users",
+          "Air-conditioned multimedia language labs and study rooms"
+        ]
+      },
+      "requirements": {
+        "id": [
+          "Terbuka untuk umum, pemuda/i usia 17 - 35 tahun",
+          "Niat sungguh-sungguh untuk menguasai bahasa Jepang",
+          "Membawa laptop / smartphone untuk materi digital"
+        ],
+        "ja": [
+          "17歳〜35歳の日本語習得を目指すインドネシア青年",
+          "強い学習意欲と継続力"
+        ],
+        "en": [
+          "Open to all individuals aged 17 - 35",
+          "High determination and commitment to learn Japanese"
+        ]
+      },
+      "icon": "Languages"
+    }
+  ],
+  "jobOrders": [
+    {
+      "id": "job-01",
+      "title": {
+        "id": "Perawat Lansia (Caregiver Kaigo) - Panti Lansia Modern Tokyo",
+        "ja": "東京都内・特別養護老人ホーム 介護職員（特定技能）",
+        "en": "Nursing Care Staff (Kaigo) - Modern Elderly Care in Tokyo"
+      },
+      "sector": "Kaigo (Perawat Lansia)",
+      "category": "ssw",
+      "prefecture": {
+        "id": "Tokyo & Kanagawa",
+        "ja": "東京都・神奈川県",
+        "en": "Tokyo & Kanagawa"
+      },
+      "salaryRangeJpy": "¥215.000 - ¥245.000",
+      "salaryEstimatedIdr": "Rp 23.500.000 - Rp 27.000.000",
+      "quota": 15,
+      "remainingQuota": 4,
+      "deadline": "2026-10-31",
+      "housingProvided": true,
+      "insuranceProvided": true,
+      "overtimeAvailable": true,
+      "requirements": {
+        "id": [
+          "Laki-laki / Perempuan usia 19 - 30 tahun",
+          "Lulus JFT-Basic A2 / JLPT N4",
+          "Lulus Tes Keterampilan Kaigo (Skill & Kaigo Japanese)",
+          "Ramah, sabar, dan berdedikasi tinggi terhadap lansia"
+        ],
+        "ja": [
+          "19歳〜30歳の男女",
+          "JFT-Basic A2またはJLPT N4合格",
+          "介護特定技能評価試験合格者",
+          "明るく礼儀正しい応対ができる方"
+        ],
+        "en": [
+          "Age 19 - 30, Male or Female",
+          "JFT-Basic A2 or JLPT N4 passed",
+          "Nursing Care Skills Evaluation Test passed",
+          "Patient, respectful, and compassionate demeanor"
+        ]
+      },
+      "status": "open",
+      "featured": true
+    },
+    {
+      "id": "job-02",
+      "title": {
+        "id": "Pertanian Tanaman Hortikultura & Sayuran Hidroponik",
+        "ja": "茨城県・大型ハウス施設園芸（トマト・葉物野菜収穫出荷）",
+        "en": "Greenhouse Horticulture & Hydroponics Vegetables"
+      },
+      "sector": "Pertanian (Nogyo)",
+      "category": "ssw",
+      "prefecture": {
+        "id": "Ibaraki & Tochigi",
+        "ja": "茨城県・栃木県",
+        "en": "Ibaraki & Tochigi"
+      },
+      "salaryRangeJpy": "¥195.000 - ¥220.000",
+      "salaryEstimatedIdr": "Rp 21.000.000 - Rp 24.000.000",
+      "quota": 20,
+      "remainingQuota": 7,
+      "deadline": "2026-11-15",
+      "housingProvided": true,
+      "insuranceProvided": true,
+      "overtimeAvailable": true,
+      "requirements": {
+        "id": [
+          "Pria / Wanita usia 19 - 29 tahun",
+          "Lulus JFT-Basic A2 / JLPT N4 & Ujian Skill Pertanian",
+          "Suka pekerjaan agrikultur dan tidak alergi tanaman",
+          "Kondisi fisik prima dan tahan cuaca"
+        ],
+        "ja": [
+          "19歳〜29歳の男女",
+          "JFT-Basic A2 / JLPT N4及び農業特定技能試験合格",
+          "体力があり真面目にハウス作業ができる方"
+        ],
+        "en": [
+          "Age 19 - 29, Male or Female",
+          "Passed JFT-Basic A2 / JLPT N4 & Agriculture Skill Test",
+          "Good stamina, comfortable working in greenhouse environments"
+        ]
+      },
+      "status": "open",
+      "featured": true
+    },
+    {
+      "id": "job-03",
+      "title": {
+        "id": "Industri Pengolahan Makanan & Bento Siap Saji",
+        "ja": "千葉県・大手食品加工工場（お弁当・総菜製造ライン）",
+        "en": "Food Processing & Pre-Packaged Bento Line Production"
+      },
+      "sector": "Pengolahan Makanan (Shokuhin)",
+      "category": "ssw",
+      "prefecture": {
+        "id": "Chiba & Saitama",
+        "ja": "千葉県・埼玉県",
+        "en": "Chiba & Saitama"
+      },
+      "salaryRangeJpy": "¥200.000 - ¥230.000",
+      "salaryEstimatedIdr": "Rp 22.000.000 - Rp 25.500.000",
+      "quota": 25,
+      "remainingQuota": 8,
+      "deadline": "2026-10-25",
+      "housingProvided": true,
+      "insuranceProvided": true,
+      "overtimeAvailable": true,
+      "requirements": {
+        "id": [
+          "Pria / Wanita usia 18 - 28 tahun",
+          "Lulus JFT-Basic A2 / JLPT N4 & Ujian Skill Shokuhin",
+          "Cekatan, teliti, mengutamakan kebersihan tinggi",
+          "Mampu bekerja dengan sistem shift"
+        ],
+        "ja": [
+          "18歳〜28歳の男女",
+          "JFT-Basic A2 / JLPT N4及び飲食料品製造特定技能試験合格",
+          "衛生管理規則・指差し呼称を守れる方",
+          "交代制勤務（夜勤含む）に対応可能な方"
+        ],
+        "en": [
+          "Age 18 - 28, Male or Female",
+          "Passed JFT-Basic A2 / JLPT N4 & Food Processing Test",
+          "High standard of personal cleanliness, good manual dexterity",
+          "Willingness to work rotating shifts"
+        ]
+      },
+      "status": "open",
+      "featured": true
+    },
+    {
+      "id": "job-04",
+      "title": {
+        "id": "Operator Pabrik Komponen Otomotif & Pengelasan (Magang / SSW)",
+        "ja": "愛知県・自動車部品プレス・溶接加工オペレーター",
+        "en": "Automotive Parts Stamping & Robot Welding Operator"
+      },
+      "sector": "Manufaktur & Permesinan",
+      "category": "intern",
+      "prefecture": {
+        "id": "Aichi & Shizuoka",
+        "ja": "愛知県・静岡県",
+        "en": "Aichi & Shizuoka"
+      },
+      "salaryRangeJpy": "¥205.000 - ¥240.000",
+      "salaryEstimatedIdr": "Rp 22.500.000 - Rp 26.500.000",
+      "quota": 12,
+      "remainingQuota": 3,
+      "deadline": "2026-11-30",
+      "housingProvided": true,
+      "insuranceProvided": true,
+      "overtimeAvailable": true,
+      "requirements": {
+        "id": [
+          "Khusus Pria usia 19 - 26 tahun",
+          "Lulusan SMK Jurusan Teknik Mesin / Otomotif / Pengelasan diutamakan",
+          "Tinggi badan min. 165 cm, tidak ada riwayat patah tulang/cedera punggung",
+          "Lulus seleksi fisik dan tes ketahanan baris-berbaris"
+        ],
+        "ja": [
+          "19歳〜26歳（男性）",
+          "工業高校卒・機械/自動車専攻歓迎",
+          "身長165cm以上、身体能力・視力良好な方",
+          "5S活動と安全第一の意識が高い人材"
+        ],
+        "en": [
+          "Male only, age 19 - 26",
+          "Vocational school graduates (Mechanical/Welding) preferred",
+          "Height min. 165cm, sound back and physical condition",
+          "Passed company physical & aptitude tests"
+        ]
+      },
+      "status": "open",
+      "featured": false
+    },
+    {
+      "id": "job-05",
+      "title": {
+        "id": "Konstruksi Interior, Scaffolding & Pengecatan Bangunan",
+        "ja": "大阪府・建築内装・足場組立・外壁塗装技術者",
+        "en": "Interior Construction, Scaffolding & Building Painting"
+      },
+      "sector": "Konstruksi (Kensetsu)",
+      "category": "intern",
+      "prefecture": {
+        "id": "Osaka & Hyogo",
+        "ja": "大阪府・兵庫県",
+        "en": "Osaka & Hyogo"
+      },
+      "salaryRangeJpy": "¥220.000 - ¥260.000",
+      "salaryEstimatedIdr": "Rp 24.000.000 - Rp 28.500.000",
+      "quota": 10,
+      "remainingQuota": 2,
+      "deadline": "2026-10-15",
+      "housingProvided": true,
+      "insuranceProvided": true,
+      "overtimeAvailable": true,
+      "requirements": {
+        "id": [
+          "Khusus Pria usia 20 - 28 tahun",
+          "Fisik prima, tidak takut ketinggian, pekerja keras",
+          "Lolos tes lari, push-up, dan pull-up LPK Indra Wijaya",
+          "Siap bekerja sama dalam tim lapangan"
+        ],
+        "ja": [
+          "20歳〜28歳の健康な男性",
+          "高所恐怖症がなく、建設現場作業に耐えうる頑強な肉体",
+          "協調性とヘルメット・安全帯の完全着用義務遵守"
+        ],
+        "en": [
+          "Male only, age 20 - 28",
+          "Robust physical fitness, no fear of heights",
+          "Passed physical endurance screening in Indramayu",
+          "Good team-spirit and safety-first mindset"
+        ]
+      },
+      "status": "open",
+      "featured": false
+    }
+  ],
+  "applicants": [
+    {
+      "id": "app-101",
+      "fullName": "Dimas Aditya Pratama",
+      "gender": "Laki-laki",
+      "birthDate": "2003-05-14",
+      "age": 23,
+      "phoneWhatsapp": "+6281298765432",
+      "email": "dimas.aditya2003@gmail.com",
+      "originDistrict": "Jatibarang",
+      "originRegency": "Indramayu",
+      "lastEducation": "SMK Negeri 1 Jatibarang (Teknik Mesin)",
+      "heightCm": 170,
+      "weightKg": 64,
+      "interestedProgram": "prog-ssw-nogyo",
+      "japaneseLevel": "Dasar / Hiragana Katakana",
+      "notes": "Sangat berminat program SSW Pertanian di Ibaraki, fisik bugar dan atletis.",
+      "status": "terjadwal_seleksi",
+      "createdAt": "2026-09-05T10:15:00Z"
+    },
+    {
+      "id": "app-102",
+      "fullName": "Nurul Aini",
+      "gender": "Perempuan",
+      "birthDate": "2002-11-20",
+      "age": 23,
+      "phoneWhatsapp": "+6287712345678",
+      "email": "nurul.aini99@yahoo.com",
+      "originDistrict": "Sindang",
+      "originRegency": "Indramayu",
+      "lastEducation": "D3 Keperawatan Cirebon",
+      "heightCm": 158,
+      "weightKg": 50,
+      "interestedProgram": "prog-ssw-kaigo",
+      "japaneseLevel": "N5",
+      "notes": "Sudah lulus JLPT N5 dan berlatar belakang keperawatan, siap wawancara user panti Tokyo.",
+      "status": "lolos_wawancara",
+      "createdAt": "2026-09-04T14:30:00Z"
+    },
+    {
+      "id": "app-103",
+      "fullName": "Bagus Setiawan",
+      "gender": "Laki-laki",
+      "birthDate": "2004-02-10",
+      "age": 22,
+      "phoneWhatsapp": "+6285890123456",
+      "originDistrict": "Lohbener",
+      "originRegency": "Indramayu",
+      "lastEducation": "SMA Negeri 1 Lohbener",
+      "heightCm": 168,
+      "weightKg": 61,
+      "interestedProgram": "prog-ssw-shokuhin",
+      "japaneseLevel": "Belum Pernah",
+      "notes": "Rumah dekat kantor LPK Indra Wijaya, ingin belajar intensif dari nol.",
+      "status": "baru",
+      "createdAt": "2026-09-08T09:00:00Z"
+    },
+    {
+      "id": "app-104",
+      "fullName": "Siti Rahmawati",
+      "gender": "Perempuan",
+      "birthDate": "2003-08-18",
+      "age": 23,
+      "phoneWhatsapp": "+6282133445566",
+      "originDistrict": "Karangampel",
+      "originRegency": "Indramayu",
+      "lastEducation": "SMK Kesehatan Cirebon",
+      "heightCm": 156,
+      "weightKg": 49,
+      "interestedProgram": "prog-ssw-kaigo",
+      "japaneseLevel": "Dasar / Hiragana Katakana",
+      "notes": "Ingin mengikuti kelas asrama gelombang Oktober 2026.",
+      "status": "sedang_pelatihan",
+      "createdAt": "2026-09-02T16:45:00Z"
+    },
+    {
+      "id": "app-105",
+      "fullName": "Fajar Maulana",
+      "gender": "Laki-laki",
+      "birthDate": "2001-12-05",
+      "age": 24,
+      "phoneWhatsapp": "+6281355667788",
+      "originDistrict": "Haurgeulis",
+      "originRegency": "Indramayu",
+      "lastEducation": "SMK PGRI Jatibarang",
+      "heightCm": 172,
+      "weightKg": 68,
+      "interestedProgram": "prog-magang-jisshuusei",
+      "japaneseLevel": "N4",
+      "notes": "Berkas CoE sedang diproses di imigrasi Nagoya Jepang.",
+      "status": "selesai",
+      "createdAt": "2026-08-20T11:20:00Z"
+    }
+  ],
+  "partnerInquiries": [
+    {
+      "id": "inq-201",
+      "companyName": "協同組合 国際人材交流推進機構 (International HR Cooperative)",
+      "organizationType": "監理団体 (Supervising Org)",
+      "country": "Jepang (日本)",
+      "contactPerson": "Tanaka Kenji (田中 健二)",
+      "position": "Senior Director / 専務理事",
+      "email": "k.tanaka@kokusai-jinzaikouryu.jp",
+      "phone": "+81 3-5800-4321",
+      "sectorNeeded": "介護 (Kaigo) & 農業 (Agriculture)",
+      "candidateCountNeeded": 25,
+      "targetArrivalPeriod": "2027年春（4月入社）",
+      "message": "西ジャワ州インドラマユ出身の実習生は真面目で忍耐強いと伺っております。特定技能1号介護および農業分野で25名程度の面接候補者を推薦いただきたく存じます。来月現地訪問も可能です。",
+      "status": "baru",
+      "createdAt": "2026-09-07T08:30:00Z"
+    },
+    {
+      "id": "inq-202",
+      "companyName": "株式会社 エコ・グリーンアグリ (Eco Green Agri Co., Ltd.)",
+      "organizationType": "受入企業 (Accepting Company)",
+      "country": "Jepang (日本)",
+      "contactPerson": "Sato Hiroshi (佐藤 博)",
+      "position": "Farm Operations Manager / 農場長",
+      "email": "h-sato@eco-greenagri.co.jp",
+      "phone": "+81 29-876-5432",
+      "sectorNeeded": "施設園芸（トマト栽培）特定技能1号",
+      "candidateCountNeeded": 8,
+      "targetArrivalPeriod": "2026年12月または2027年1月",
+      "message": "現在ベトナム人実習生を雇用していますが、新設のハイテク温室拡大に伴いインドネシア人特定技能の採用を計画しています。LPKインドラ・ウィジャヤ様の教育方針とオンライン面接の手順を教えてください。",
+      "status": "dihubungi",
+      "createdAt": "2026-09-02T13:10:00Z"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testi-01",
+      "name": "Rizki Ramadhan, A.Md.Kep",
+      "origin": "Jatibarang, Indramayu",
+      "role": "Caregiver di Tokyo",
+      "sector": {
+        "id": "Perawat Lansia (Kaigo)",
+        "ja": "介護福祉職（特定技能1号）",
+        "en": "Caregiver (SSW Nursing Care)"
+      },
+      "prefecture": {
+        "id": "Setagaya, Tokyo",
+        "ja": "東京都 世田谷区",
+        "en": "Setagaya, Tokyo"
+      },
+      "companyName": "Social Welfare Corp. Tokyo Smile Care",
+      "quote": {
+        "id": "Alhamdulillah berkat bimbingan disiplin, bahasa Jepang, dan simulasi asrama di LPK Indra Wijaya, saya bisa lolos wawancara panti jompo di Tokyo hanya dalam waktu 4 bulan. Fasilitas di asrama Lohbener sangat lengkap dan rasa kekeluargaannya kuat!",
+        "ja": "インドラ・ウィジャヤでの厳しい訓練と先生方の親身な指導のおかげで、わずか4ヶ月で東京の社会福祉法人の面接に合格できました。現在世田谷の施設で笑顔で勤務しており、給与にも大変満足しています。",
+        "en": "Thanks to the strict discipline and practical nursing lab at LPK Indra Wijaya in Indramayu, I passed my interview with a top elderly care home in Tokyo. The instructors always guided me wholeheartedly."
+      },
+      "photoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+      "yearDeparted": 2024,
+      "visaType": "Tokutei Ginou (SSW)"
+    },
+    {
+      "id": "testi-02",
+      "name": "Dewi Sartika",
+      "origin": "Karangampel, Indramayu",
+      "role": "Quality Control Food Staff",
+      "sector": {
+        "id": "Pengolahan Makanan (Shokuhin)",
+        "ja": "食品製造・品質管理（特定技能1号）",
+        "en": "Food Quality Inspection"
+      },
+      "prefecture": {
+        "id": "Chiba Prefecture",
+        "ja": "千葉県 船橋市",
+        "en": "Funabashi, Chiba"
+      },
+      "companyName": "Kanto Delica Foods Corp.",
+      "quote": {
+        "id": "Dari seorang gadis desa di Karangampel yang awalnya tidak tahu bahasa Jepang sama sekali, sekarang saya bisa mandiri berpenghasilan 24 juta per bulan di Jepang dan rutin kirim uang untuk orang tua bangun rumah di Indramayu. Terima kasih LPK Indra Wijaya!",
+        "ja": "日本語が全く話せない状態からスタートしましたが、先生方の徹底した特訓でJFT-A2と食品試験に一発合格。現在は千葉のお弁当工場で働いており、毎月実家の両親へ仕送りできて親孝行できています。",
+        "en": "Starting with zero Japanese knowledge in Karangampel, I cleared both JFT and Food skill tests in one go. Now working at a major food facility in Chiba and able to support my family back home."
+      },
+      "photoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+      "yearDeparted": 2025,
+      "visaType": "Tokutei Ginou (SSW)"
+    },
+    {
+      "id": "testi-03",
+      "name": "Ahmad Fauzi",
+      "origin": "Haurgeulis, Indramayu",
+      "role": "Spesialis Budidaya Sayur Modern",
+      "sector": {
+        "id": "Pertanian (Nogyo)",
+        "ja": "施設園芸・農業（特定技能1号）",
+        "en": "Modern Agriculture"
+      },
+      "prefecture": {
+        "id": "Ibaraki Prefecture",
+        "ja": "茨城県 鉾田市",
+        "en": "Hokota, Ibaraki"
+      },
+      "companyName": "Ibaraki Green Farm Agro",
+      "quote": {
+        "id": "Di LPK Indra Wijaya tidak ada pungutan liar atau calo. Semuanya transparan dan berizin resmi Kemenaker. Di Jepang, kami disediakan asrama yang sangat nyaman dan bos pertanian sangat menghargai kerja keras anak-anak Indramayu.",
+        "ja": "インドラ・ウィジャヤは手続きが非常に透明で、違法な中間搾取も一切ありません。茨城の農場主様もインドネシア人を家族のように温かく迎えてくれ、毎日充実した農業ライフを送っています。",
+        "en": "LPK Indra Wijaya is 100% legal and transparent with zero hidden fees. In Japan, our employer treats us with high respect and provides excellent accommodation in Ibaraki."
+      },
+      "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+      "yearDeparted": 2024,
+      "visaType": "Tokutei Ginou (SSW)"
+    },
+    {
+      "id": "testi-04",
+      "name": "Hendra Kusuma",
+      "origin": "Sindang, Indramayu",
+      "role": "Teknisi Pengelasan & Robotika",
+      "sector": {
+        "id": "Manufaktur & Permesinan",
+        "ja": "金属プレス・溶接（技能実習2号）",
+        "en": "Manufacturing & Welding"
+      },
+      "prefecture": {
+        "id": "Aichi Prefecture",
+        "ja": "愛知県 豊田市",
+        "en": "Toyota City, Aichi"
+      },
+      "companyName": "Chubu Precision Metal Co., Ltd.",
+      "quote": {
+        "id": "Latihan FMD (Fisik, Mental, dan Disiplin) di Indramayu sempat terasa berat di awal, tapi ternyata itulah kunci utama sukses saya di pabrik otomotif Aichi. Budaya kerja 5S dan Hourenso yang diajarkan LPK Indra Wijaya sangat berguna di sini.",
+        "ja": "インドラマユ合宿でのFMD（心身規律訓練）は初め厳しかったですが、愛知の自動車部品工場で働く今、その教えが自分の最大の武器になっています。日本の5Sや報連相が自然と実践できています。",
+        "en": "The physical and mental discipline (FMD) training back in Indramayu became my greatest asset in Aichi. Japanese employers praise our strong punctuality and communication habits."
+      },
+      "photoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80",
+      "yearDeparted": 2023,
+      "visaType": "Ginou Jisshuusei (Magang)"
+    }
+  ],
+  "articlesAndGallery": [
+    {
+      "id": "art-01",
+      "type": "gallery",
+      "title": {
+        "id": "Pelepasan 28 Siswa SSW & Magang Gelombang Ke-14 di Bandara Soekarno-Hatta Menuju Tokyo & Nagoya",
+        "ja": "第14期生28名・成田および中部国際空港へ向けて堂々の出発セレモニー",
+        "en": "Official Airport Send-Off of 28 Trainees Departing to Tokyo and Nagoya"
+      },
+      "summary": {
+        "id": "Momen haru dan bangga keluarga melepas keberangkatan 28 putra-putri berprestasi LPK Indra Wijaya yang siap berkarier di berbagai prefektur Jepang.",
+        "ja": "スカルノ・ハッタ国際空港にて、ご家族が見守る中、第14期特定技能および技能実習生28名の日本出発を見送りました。",
+        "en": "Emotional and proud moments at Soekarno-Hatta Airport as 28 qualified students from Indramayu depart for their Japan careers."
+      },
+      "category": "Keberangkatan",
+      "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80",
+      "date": "2026-08-25",
+      "published": true
+    },
+    {
+      "id": "art-02",
+      "type": "gallery",
+      "title": {
+        "id": "Kunjungan Supervising Organization (Kumiai) dari Osaka Menguji Langsung Keterampilan Siswa di Lohbener",
+        "ja": "大阪の受入れ監理団体代表団がインドラマユ校を視察・直接面接を実施",
+        "en": "Supervising Organization (Kumiai) Delegation from Osaka Conducting On-Site Audits and Interviews"
+      },
+      "summary": {
+        "id": "Delegasi pimpinan Kumiai Jepang meninjau langsung kedisiplinan baris-berbaris, kelas simulasi kaigo, dan laboratorium bahasa LPK Indra Wijaya di Indramayu.",
+        "ja": "日本の監理団体役員様が来訪。朝礼の規律指導、日本語模擬授業、介護実習室を詳細に視察いただき、候補生の熱意に高い評価をいただきました。",
+        "en": "Japanese Kumiai leadership delegates directly observed morning assembly drill, Japanese kaiwa classes, and eldercare simulation facilities."
+      },
+      "category": "Kerjasama Jepang",
+      "imageUrl": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80",
+      "date": "2026-08-10",
+      "published": true
+    },
+    {
+      "id": "art-03",
+      "type": "article",
+      "title": {
+        "id": "Panduan Lengkap Syarat, Alur, dan Biaya Resmi Bekerja ke Jepang Jalur Tokutei Ginou (SSW) 2026",
+        "ja": "【2026年最新版】特定技能1号で日本就労を目指すインドネシア青年のための完全ガイド",
+        "en": "Complete 2026 Guide to Working in Japan via Tokutei Ginou (Specified Skilled Worker)"
+      },
+      "summary": {
+        "id": "Pelajari apa saja perbedaan visa Tokutei Ginou dengan Magang, syarat sertifikat JFT-Basic A2, tips lulus wawancara user, hingga estimasi gaji bersih di Jepang.",
+        "ja": "技能実習と特定技能の違い、必要となるJFT試験の合格戦略、面接で好印象を与えるポイント、給与待遇の仕組みを詳しく解説します。",
+        "en": "A comprehensive breakdown of Tokutei Ginou vs Internship visas, JFT certification tips, salary benchmarks, and official legal procedures."
+      },
+      "content": {
+        "id": "Program Tokutei Ginou (Specified Skilled Worker / SSW) merupakan skema visa kerja resmi Pemerintah Jepang bagi tenaga kerja berketerampilan khusus. Berbeda dengan program magang biasa, pemegang visa SSW mendapatkan status karyawan penuh dengan gaji standar setara warga Jepang asli...",
+        "ja": "特定技能1号制度は、即戦力となる外国人材を受け入れるための日本の公的在留資格です。LPKインドラ・ウィジャヤでは、JFT-Basic及び各分野の特定技能評価試験に向けた対策を少人数制で徹底指導しています...",
+        "en": "The Tokutei Ginou program allows foreign professionals to work in Japan with full worker rights and equivalent salaries to native Japanese employees. LPK Indra Wijaya provides specialized fast-track preparation..."
+      },
+      "category": "Info Edukasi",
+      "imageUrl": "https://images.unsplash.com/photo-1528164344705-475426879c0d?auto=format&fit=crop&w=800&q=80",
+      "date": "2026-07-28",
+      "published": true
+    },
+    {
+      "id": "art-04",
+      "type": "gallery",
+      "title": {
+        "id": "Pelatihan Fisik, Mental, dan Disiplin (FMD) Bersama Instruktur Bersertifikat di Indramayu",
+        "ja": "インドラマユ校舎でのFMD（心身規律・体力・礼儀作法）強化訓練風景",
+        "en": "Rigorous Physical, Mental, and Discipline (FMD) Training Session in Indramayu"
+      },
+      "summary": {
+        "id": "Membangun ketangguhan fisik, ketepatan waktu (jikan genshu), dan etika tata krama khas Jepang agar siswa tidak mudah menyerah saat menghadapi musim dingin di Jepang.",
+        "ja": "時間を厳守する習慣、大きな声での挨拶、集団行動の調和を養うFMD訓練。過酷な日本の現場でも挫折しない強い精神力を育てます。",
+        "en": "Instilling strict punctuality, loud greetings, team harmony, and physical endurance ensuring trainees thrive through harsh weather in Japan."
+      },
+      "category": "Pelatihan",
+      "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=800&q=80",
+      "date": "2026-07-15",
+      "published": true
+    },
+    {
+      "id": "art-05",
+      "type": "gallery",
+      "title": {
+        "id": "Praktik Simulasi Laboratorium Kaigo (Perawatan Lansia) Standar Panti Jepang",
+        "ja": "最新の介護実習ベッドを用いた実践的シミュレーション講習風景",
+        "en": "Practical Eldercare (Kaigo) Simulation Lab Session Matching Japanese Standards"
+      },
+      "summary": {
+        "id": "Siswa jurusan Tokutei Ginou Kaigo mempraktikkan teknik transfer pasien, pemakaian kursi roda, komunikasi ramah (*Koe Kake*), dan standar keselamatan kerja.",
+        "ja": "移乗介助、車椅子操作、声かけコミュニケーション、安全衛生管理など、日本の介護施設で即戦力となる実践技術を習得。",
+        "en": "Trainees practicing patient transfer, wheelchair mobility, empathetic communication (Koe Kake), and eldercare safety standards."
+      },
+      "category": "Pelatihan",
+      "imageUrl": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1200&q=80",
+      "date": "2026-08-05",
+      "published": true
+    },
+    {
+      "id": "art-06",
+      "type": "gallery",
+      "title": {
+        "id": "Suasana Belajar Bahasa Jepang & Simulasi Wawancara Kerja (Menyetsu) di Kelas",
+        "ja": "冷房完備の教室で実施される実践的日本語会話および模擬面接授業",
+        "en": "Intensive Japanese Language & Interview (Menyetsu) Simulation Classes"
+      },
+      "summary": {
+        "id": "Pembelajaran intensif tata bahasa, kosakata teknis kerja, serta latihan berbicara (*Kaiwa*) langsung dipandu Sensei berpengalaman lulusan Jepang.",
+        "ja": "文法、専門用語、日常会話の習得に加え、面接時に好印象を与える姿勢や発声方法を元日本在住講師が熱心に指導。",
+        "en": "Rigorous Japanese grammar, technical industry terminology, and conversation drills coached by experienced ex-Japan instructors."
+      },
+      "category": "Pelatihan",
+      "imageUrl": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80",
+      "date": "2026-08-18",
+      "published": true
+    }
+  ],
+  "adminUser": {
+    "username": "admin",
+    "passwordHash": "indrawijaya2024",
+    "lastLogin": "2026-09-09T18:00:00Z"
+  }
+}

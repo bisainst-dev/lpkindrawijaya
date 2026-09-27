@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "SF Pro", "Segoe UI", "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+@layer base {
+  :root {
+    --primary: #059669; /* emerald-600 */
+    --primary-dark: #047857; /* emerald-700 */
+    --primary-light: #10B981; /* emerald-500 */
+    --accent-orange: #F97316; /* orange-500 */
+    --accent-orange-dark: #EA580C; /* orange-600 */
+    --accent-orange-light: #FB923C; /* orange-400 */
+    --accent-green-light: #6EE7B7; /* emerald-300 */
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "SF Pro", "Segoe UI", "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "SF Pro", "Segoe UI", "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    background-color: #FAFAF9;
+    color: #1C1917;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Khusus teks / halaman bahasa Jepang: prioritaskan Hiragino Sans (ヒラギノ角ゴシック) */
+  html[lang="ja"], :lang(ja) {
+    font-family: "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", "メイリオ", Meiryo, sans-serif;
+  }
+}
+
+/* Custom Fresh Green & Energetic Orange Gradient Accents */
+.hero-gradient {
+  background: radial-gradient(circle at 85% 15%, rgba(16, 185, 129, 0.12) 0%, rgba(249, 115, 22, 0.08) 35%, transparent 70%),
+              radial-gradient(circle at 15% 85%, rgba(52, 211, 153, 0.08) 0%, transparent 50%),
+              linear-gradient(180deg, #FFFFFF 0%, #F0FDF4 100%);
+}
+
+.jp-border-left {
+  border-left: 4px solid #10B981;
+}
+
+.green-card {
+  background: linear-gradient(135deg, #064E3B 0%, #065F46 100%);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #10B981;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #059669;
+}
