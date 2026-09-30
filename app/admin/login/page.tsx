@@ -110,15 +110,6 @@ export default function AdminLoginPage() {
           </button>
         </form>
 
-        {/* Default Credential helper notice */}
-        <div className="mt-6 pt-5 border-t border-slate-800/80 text-[11px] text-slate-400 bg-slate-900/50 p-3 rounded-xl border border-slate-800">
-          <p className="font-bold text-slate-300 mb-1">🔑 Kredensial Default:</p>
-          <p>Username: <code className="text-amber-400 font-mono">admin</code></p>
-          <p>Password: <code className="text-amber-400 font-mono">indrawijaya2024</code></p>
-          <p className="text-[10px] text-slate-500 mt-1 italic">
-            *Dapat diubah kapan saja di menu Pengaturan CMS.
-          </p>
-        </div>
 
         <div className="mt-6 text-center">
           <Link
